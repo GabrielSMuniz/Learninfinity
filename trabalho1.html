@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined">
+    <link rel="stylesheet" href="style/style.css">
+
+    <title>Learninfinity</title>
+
+</head>
+
+<body>
+    <header>
+        <section class="container">
+            <div class="logo">
+                <h1 id="logo-title">Learninfinity</h1>
+                <i class="material-icons-outlined" id="logo">all_inclusive</i>
+            </div>
+        </section>
+
+        <nav class="container">
+            <div class="nav-item nav-bar1" onclick="showPage('about')">
+                <i class="material-icons-outlined nav-bar">info</i>
+                <p>Sobre</p>
+            </div>
+            <div class="nav-item nav-bar2" onclick="showPage('home')">
+                <i class="material-icons-outlined nav-bar">home</i>
+                <p>Home</p>
+            </div>
+            <div class="nav-item nav-bar3" onclick="showPage('login')">
+                <i class="material-icons-outlined nav-bar">login</i>
+                <p>Login</p>
+            </div>
+        </nav>
+    </header>
+
+    <section class="page" id="about">
+        <h2 class="section-title">Sobre</h2>
+        <div class="text-box">
+            <p>A Learninfinity consiste em um canal de informações que visa agregar e compartilhar conhecimentos
+                relevantes para o consumo e produção de recursos conscientes dentro de casa, visando instruir a
+                população sobre o Objetivo de
+                Desenvolvimento Sustentável 12 - Consumo e produção responsáveis, propostos pela Organização Mundial da
+                Saúde, com dicas e tarefas simples de serem realizadas no cotidiano.</p>
+            <br>
+            <figure id="fig-ods"><img
+                    src="https://brasil.un.org/profiles/undg_country/themes/custom/undg/images/SDGs/pt-br/SDG-12.svg"
+                    class="ods" alt="Objetivos de Desenvolvimento Sustentável"></figure>
+        </div>
+    </section>
+
+    <section class="page" id="home">
+        <div>
+            <h2 class="section-title">Como Praticar o Consumo Sustentável</h2>
+            <div class="text-boxes">
+                <div class="text-box">
+                    <h3>Planeje suas Compras</h3>
+                    <p>Evite compras por impulso e o desperdício. Faça uma <u>lista</u> do que realmente precisa e
+                        pesquise sobre a origem e
+                        impacto ambiental dos produtos.</p>
+                    <p>Priorize produtos locais e sazonais para reduzir a pegada de carbono do transporte.</p>
+                    <p> Tenha como base um conjunto de ingredientes fundamentais para a sua dieta, independente de qual
+                        seja seu orçamento. Por exemplo, os itens da cesta básica: </p>
+                    <br>
+                    <ul>
+                        <li>Cereais, raízes e tubérculos: Arroz, feijão, macarrão, farinha de trigo, batata, e produtos
+                            de milho. </li>
+                        <li>Carnes e ovos: Carne, ovos, sardinha enlatada e outras proteínas.
+                        </li>
+                        <li>Leites e queijos: Leite e derivados, como leite em pó.
+                        </li>
+                        <li>Legumes, verduras e frutas: Tomate, legumes frescos, frutas in natura e polpas de fruta.
+                        </li>
+                        <li>Açúcares, óleos e gorduras: Açúcar refinado, óleo vegetal, e margarina.</li>
+                        <li>Café, chá, mate e especiarias: Café, açúcar, e condimentos como canela.
+                        </li>
+                        <li>Produtos de higiene e limpeza: Sabão, detergente e papel higiênico.
+                        </li>
+                    </ul>
+                </div>
+                <div class="text-box">
+                    <h3>Reduza o Desperdício</h3>
+                    <p>Aproveite integralmente os alimentos e produtos. Repense embalagens desnecessárias e opte por
+                        refis quando possível.</p>
+                    <p>Conserte em vez de descartar. Muitos produtos podem ter sua vida útil prolongada com pequenos
+                        reparos.</p>
+                    <div class="image-gallery">
+                        <div class="gallery-item">
+                            <img src="https://images.unsplash.com/photo-1542838132-92c53300491e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                                alt="Compras sustentáveis">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="https://images.unsplash.com/photo-1587334984007-35249bd50d0e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                                alt="Produtos orgânicos">
+                        </div>
+                    </div>
+                </div>
+                <div class="text-box">
+                    <h3>Escolha Produtos Sustentáveis</h3>
+                    <p>Prefira produtos com certificações ambientais, feitos com materiais reciclados ou recicláveis.
+                    </p>
+                    <p>Dê preferência a empresas com políticas ambientais transparentes e comprometidas com a
+                        sustentabilidade.</p>
+                    <div class="image-gallery">
+                        <div class="gallery-item">
+                            <img src="https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                                alt="Reciclagem">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="https://images.unsplash.com/photo-1558640476-437a2e9b7a7f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                                alt="Compostagem">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-box">
+                <p>Referências</p>
+                <ul>
+                    <li><a href="https://agenciagov.ebc.com.br/noticias/202403/conheca-os-alimentos-que-compoem-a-nova-cesta-basica"
+                            target="_blank">https://agenciagov.ebc.com.br/noticias/202403/conheca-os-alimentos-que-compoem-a-nova-cesta-basica</a>
+                    </li>
+                    <li><a href="https://brasil.un.org/pt-br/sdgs/12"
+                            target="_blank">https://brasil.un.org/pt-br/sdgs/12</a>
+                    </li>
+                    <li><a href="https://www.wwf.org.br/participe/acao/guia_consumo_consciente/"
+                            target="_blank">https://www.wwf.org.br/participe/acao/guia_consumo_consciente/</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="page" id="signin">
+        <div class="auth-container">
+            <h2 class="section-title">Cadastro</h2>
+            <form id="registration-form">
+                <div class="form-group">
+                    <label for="name">Nome Completo</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Telefone</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                <div class="form-group">
+                    <label for="city">Cidade</label>
+                    <input type="text" id="city" name="city" required>
+                </div>
+                <div class="form-group">
+                    <label for="interests">Áreas de Interesse</label>
+                    <select id="interests" name="interests" multiple>
+                        <option value="alimentacao">Alimentação Sustentável</option>
+                        <option value="reciclagem">Reciclagem</option>
+                        <option value="energia">Economia de Energia</option>
+                        <option value="agua">Economia de Água</option>
+                        <option value="compostagem">Compostagem</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirm-password">Confirmar Senha</label>
+                    <input type="password" id="confirm-password" name="confirm-password" required>
+                </div>
+                <button type="button" onclick="showPage('login')">Cadastrar</button>
+            </form>
+            <div class="login-link">
+                <p>Já tem uma conta? <a href="#" onclick="showPage('login')">Faça login aqui</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="page" id="login">
+        <div class="auth-container">
+            <h2 class="section-title">Login</h2>
+            <form id="login-form">
+                <div class="form-group">
+                    <label for="login-email">E-mail</label>
+                    <input type="email" id="login-email" name="login-email" required>
+                </div>
+                <div class="form-group">
+                    <label for="login-password">Senha</label>
+                    <input type="password" id="login-password" name="login-password" required>
+                </div>
+                <button type="button" onclick="performLogin()">Entrar</button>
+            </form>
+            <div class="login-link">
+                <p>Não tem uma conta? <a href="#" onclick="showPage('signin')">Cadastre-se aqui</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p style="margin-top: 1rem;">&copy; 2025 Learninfinity - Todos os direitos reservados</p>
+    </footer>
+
+    <script>
+        function scrollToSection(sectionId) {
+            document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // Função para alternar entre as páginas
+        function showPage(pageId) {
+            // Oculta todas as páginas
+            document.querySelectorAll('.page').forEach(page => {
+                page.style.display = 'none';
+            });
+
+            // Mostra a página selecionada
+            document.getElementById(pageId).style.display = 'block';
+
+            // Rola para o topo da página
+            window.scrollTo(0, 0);
+        }
+
+        function performLogin() {
+            alert('Login realizado com sucesso! Redirecionando para a página principal...');
+            showPage('home');
+        }
+
+        document.addEventListener('DOMContentLoaded', function () {
+            showPage('login');
+        });
+    </script>
+</body>
+
+</html>
