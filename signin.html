@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Learninfinity</title>
+
+</head>
+
+<body>
+    <header>
+        <section class="container">
+            <div class="logo">
+                <h1 id="logo-title">Learninfinity</h1>
+                <i class="material-icons-outlined" id="logo">all_inclusive</i>
+            </div>
+        </section>
+
+        <nav class="container">
+            <a class="nav-item" href="about.html">
+                <i class="material-icons-outlined nav-bar">info</i>
+                <p>Sobre</p>
+            </a>
+            <a class="nav-item" href="home.html">
+                <i class="material-icons-outlined nav-bar">home</i>
+                <p>Home</p>
+            </a>
+            <a class="nav-item" href="login.html">
+                <i class="material-icons-outlined nav-bar">login</i>
+                <p>Login</p>
+            </a>
+        </nav>
+    </header>
+
+    <section class="page" id="signin">
+        <h2 class="section-title">Cadastro</h2>
+        <div class="auth-container">
+            <form id="registration-form">
+                <div class="form-group">
+                    <label for="name">Nome Completo</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Telefone</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                <div class="form-group">
+                    <label for="city">Cidade</label>
+                    <input type="text" id="city" name="city" required>
+                </div>
+                <div class="form-group">
+                    <label for="interests">Áreas de Interesse</label>
+                    <select id="interests" name="interests" multiple>
+                        <option value="alimentacao">Alimentação Sustentável</option>
+                        <option value="reciclagem">Reciclagem</option>
+                        <option value="energia">Economia de Energia</option>
+                        <option value="agua">Economia de Água</option>
+                        <option value="compostagem">Compostagem</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirm-password">Confirmar Senha</label>
+                    <input type="password" id="confirm-password" name="confirm-password" required>
+                </div>
+                <button type="button" onclick="showPage('login')">Cadastrar</button>
+            </form>
+            <div class="login-link">
+                <p>Já tem uma conta? <a href="login.html">Faça login aqui</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p style="margin-top: 1rem;">&copy; 2025 Learninfinity - Todos os direitos reservados</p>
+    </footer>
+</body>
+
+</html>

@@ -27,35 +27,20 @@
         </section>
 
         <nav class="container">
-            <div class="nav-item nav-bar1" onclick="showPage('about')">
+            <a class="nav-item" href="about.html">
                 <i class="material-icons-outlined nav-bar">info</i>
                 <p>Sobre</p>
-            </div>
-            <div class="nav-item nav-bar2" onclick="showPage('home')">
+            </a>
+            <a class="nav-item" href="home.html">
                 <i class="material-icons-outlined nav-bar">home</i>
                 <p>Home</p>
-            </div>
-            <div class="nav-item nav-bar3" onclick="showPage('login')">
+            </a>
+            <a class="nav-item" href="login.html">
                 <i class="material-icons-outlined nav-bar">login</i>
                 <p>Login</p>
-            </div>
+            </a>
         </nav>
     </header>
-
-    <section class="page" id="about">
-        <h2 class="section-title">Sobre</h2>
-        <div class="text-box">
-            <p>A Learninfinity consiste em um canal de informações que visa agregar e compartilhar conhecimentos
-                relevantes para o consumo e produção de recursos conscientes dentro de casa, visando instruir a
-                população sobre o Objetivo de
-                Desenvolvimento Sustentável 12 - Consumo e produção responsáveis, propostos pela Organização Mundial da
-                Saúde, com dicas e tarefas simples de serem realizadas no cotidiano.</p>
-            <br>
-            <figure id="fig-ods"><img
-                    src="https://brasil.un.org/profiles/undg_country/themes/custom/undg/images/SDGs/pt-br/SDG-12.svg"
-                    class="ods" alt="Objetivos de Desenvolvimento Sustentável"></figure>
-        </div>
-    </section>
 
     <section class="page" id="home">
         <div>
@@ -137,104 +122,9 @@
         </div>
     </section>
 
-    <section class="page" id="signin">
-        <div class="auth-container">
-            <h2 class="section-title">Cadastro</h2>
-            <form id="registration-form">
-                <div class="form-group">
-                    <label for="name">Nome Completo</label>
-                    <input type="text" id="name" name="name" required>
-                </div>
-                <div class="form-group">
-                    <label for="email">E-mail</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div class="form-group">
-                    <label for="phone">Telefone</label>
-                    <input type="tel" id="phone" name="phone">
-                </div>
-                <div class="form-group">
-                    <label for="city">Cidade</label>
-                    <input type="text" id="city" name="city" required>
-                </div>
-                <div class="form-group">
-                    <label for="interests">Áreas de Interesse</label>
-                    <select id="interests" name="interests" multiple>
-                        <option value="alimentacao">Alimentação Sustentável</option>
-                        <option value="reciclagem">Reciclagem</option>
-                        <option value="energia">Economia de Energia</option>
-                        <option value="agua">Economia de Água</option>
-                        <option value="compostagem">Compostagem</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="password">Senha</label>
-                    <input type="password" id="password" name="password" required>
-                </div>
-                <div class="form-group">
-                    <label for="confirm-password">Confirmar Senha</label>
-                    <input type="password" id="confirm-password" name="confirm-password" required>
-                </div>
-                <button type="button" onclick="showPage('login')">Cadastrar</button>
-            </form>
-            <div class="login-link">
-                <p>Já tem uma conta? <a href="#" onclick="showPage('login')">Faça login aqui</a></p>
-            </div>
-        </div>
-    </section>
-
-    <section class="page" id="login">
-        <div class="auth-container">
-            <h2 class="section-title">Login</h2>
-            <form id="login-form">
-                <div class="form-group">
-                    <label for="login-email">E-mail</label>
-                    <input type="email" id="login-email" name="login-email" required>
-                </div>
-                <div class="form-group">
-                    <label for="login-password">Senha</label>
-                    <input type="password" id="login-password" name="login-password" required>
-                </div>
-                <button type="button" onclick="performLogin()">Entrar</button>
-            </form>
-            <div class="login-link">
-                <p>Não tem uma conta? <a href="#" onclick="showPage('signin')">Cadastre-se aqui</a></p>
-            </div>
-        </div>
-    </section>
-
     <footer>
         <p style="margin-top: 1rem;">&copy; 2025 Learninfinity - Todos os direitos reservados</p>
     </footer>
-
-    <script>
-        function scrollToSection(sectionId) {
-            document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
-        }
-
-        // Função para alternar entre as páginas
-        function showPage(pageId) {
-            // Oculta todas as páginas
-            document.querySelectorAll('.page').forEach(page => {
-                page.style.display = 'none';
-            });
-
-            // Mostra a página selecionada
-            document.getElementById(pageId).style.display = 'block';
-
-            // Rola para o topo da página
-            window.scrollTo(0, 0);
-        }
-
-        function performLogin() {
-            alert('Login realizado com sucesso! Redirecionando para a página principal...');
-            showPage('home');
-        }
-
-        document.addEventListener('DOMContentLoaded', function () {
-            showPage('login');
-        });
-    </script>
 </body>
 
 </html>
