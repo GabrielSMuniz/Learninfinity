@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(253, 222, 143);
+    font-family: Roboto;
+    padding: 1%;
+}
+
+header {
+    position: relative;
+}
+
+h1,
+h2 {
+    font-family: 'EDo', Roboto;
+}
+
+header {
+    padding: 2%;
+    background-color: goldenrod;
+    border-radius: 50px;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+figcaption {
+    font-size: 80%;
+    font-style: italic;
+}
+
+#infos {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    vertical-align: middle;
+}
+
+#infos li {
+    background-color: #f1bc0b;
+    margin-bottom: 8px;
+    padding: 12px 15px;
+    border-radius: 5px;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+
+#infos i {
+    padding: 2px;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin-right: 12px;
+}
+
+#infos li::before {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+#infos li:hover {
+    background-color: #ff9d09;
+    transform: translateY(-2px);
+    transition: all 0.2s ease-in-out;
+}
+
+#perfil {
+    border: 2px solid transparent;
+}
+
+#perfil:hover {
+    border: 2px solid black;
+}
+
+#ods {
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+#content {
+    padding: 2%;
+    border-radius: 50px;
+    background-color: darkgoldenrod;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#infos {
+    text-align: initial;
+}
+
+footer {
+    text-align: center;
+    text-decoration: underline;
+}

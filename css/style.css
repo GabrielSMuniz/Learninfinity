@@ -242,6 +242,10 @@
  }
 
  footer {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     align-items: center;
      background-color: var(--primary-color);
      color: var(--text-color-light);
      padding: 2rem;
@@ -259,7 +263,7 @@
  }
 
  footer a {
-     color: var(--text-color-dark);
+     color: var(--accent-color);
  }
 
  /* Responsividade */
