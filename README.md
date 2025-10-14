@@ -20,7 +20,7 @@ O **Learninfinity** é uma plataforma web educativa desenvolvida para promover o
 - Promover a conscientização sobre o ODS 12
 - Criar uma comunidade engajada com a sustentabilidade
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 ### 🏠 Página Principal
 - **Informações sobre o ODS 12**
@@ -61,7 +61,7 @@ O **Learninfinity** é uma plataforma web educativa desenvolvida para promover o
 
 ## 🚀 Como acessar?
 
-- Através do link: gabrielsm.
+- Através do link: https://gabrielsmuniz.github.io/Learninfinity/home
 
 ## 🔍 Validação de Código
 
