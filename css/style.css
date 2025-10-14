@@ -2,8 +2,8 @@
      --primary-color: #7B542F;
      --secondary-color: #B6771D;
      --accent-color: #FF9D00;
-     --text-color-dark: #333333;
-     --text-color-light: #ffffff;
+     --text-color-dark: #3d2509;
+     --text-color-light: #fcf6ef;
      --background-light: #FFCF71;
      --background-dark: #2c3e50;
  }
@@ -12,7 +12,7 @@
      margin: 0;
      padding: 0;
      box-sizing: border-box;
- } 
+ }
 
  body {
      background-color: #FFF9E6;
@@ -98,12 +98,16 @@
 
  a {
      text-decoration: none;
+     color: currentColor;
+ }
+
+ a.ref {
      color: var(--text-color-light);
      transition: color 0.3s;
  }
 
- a:hover {
-     color: var(--accent-color);
+ a.ref:hover {
+     color: #9e671b;
  }
 
  #fig-ods {
@@ -154,10 +158,10 @@
      margin-bottom: 2rem;
  }
 
- #login {
+ .page {
      display: flex;
      flex-direction: column;
-     justify-content: center;
+     align-items: center;
  }
 
  .auth-container {
@@ -239,7 +243,7 @@
 
  footer {
      background-color: var(--primary-color);
-     color: white;
+     color: var(--text-color-light);
      padding: 2rem;
      margin-top: 2rem;
      border-radius: 10px;
@@ -255,7 +259,7 @@
  }
 
  footer a {
-     color: var(--background-light);
+     color: var(--text-color-dark);
  }
 
  /* Responsividade */
