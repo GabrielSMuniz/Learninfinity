@@ -4,16 +4,16 @@
 
 </div>
 
-## 👥 Equipe
+## Equipe
 - Gabriel de Souza Muniz - 2475430
 
-## 📋 Descrição do Projeto
+## Descrição do Projeto
 
 O **Learninfinity** é uma plataforma web educativa desenvolvida para promover o **Objetivo de Desenvolvimento Sustentável 12** da ONU - **Consumo e Produção Responsáveis**. O projeto visa conscientizar e educar a população sobre práticas sustentáveis no dia a dia, oferecendo informações, dicas e recursos para um consumo mais consciente.
 
 ![Objetivos de desenvolvimento sustentável](/figs/ods.png)
 
-## 🎯 Objetivo
+## Objetivo
 
 - Disseminar conhecimento sobre consumo sustentável
 - Oferecer práticas simples para implementar no cotidiano
@@ -41,7 +41,7 @@ O **Learninfinity** é uma plataforma web educativa desenvolvida para promover o
 - **Login seguro** para usuários cadastrados
 - **Interface responsiva** e intuitiva
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 ### Frontend
 - **HTML5** - Estrutura semântica
@@ -59,23 +59,23 @@ O **Learninfinity** é uma plataforma web educativa desenvolvida para promover o
 - Navegação **intuitiva** com scroll suave
 - **Animações** e transições suaves
 
-## 🚀 Como acessar?
+## Como acessar?
 
 - Através do link: https://gabrielsmuniz.github.io/Learninfinity/home
 
-## 🔍 Validação de Código
+## Validação de Código
 
 O projeto segue os padrões web:
 - ✅ **HTML Validado** - [W3C Validator](https://validator.w3.org/)
 - ✅ **CSS Validado** - [Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/)
 
-## 🤝 Contribuição
+## Contribuição
 
 Este projeto foi desenvolvido como parte da disciplina de **Programação Web Front-End** com foco em:
 - Aplicação prática de HTML, CSS e JavaScript
 - Desenvolvimento de soluções para problemas reais
 - Alinhamento com Objetivos de Desenvolvimento Sustentável
 
-## 📄 Licença
+## Licença
 
 Este projeto é educacional e foi desenvolvido para fins acadêmicos.
